@@ -22,6 +22,8 @@ public class CondicaoBuilderTest {
 	
 	@Test
 	public void testarIntegracaoCompleta() {
+		
+		
 		Condicao condicao = Condicao.iniciarCriacaoParaAtributo("nome")
 				.igual("Lucas Israel").ou("idade").maiorIgual(18).voltar()
 				.e("qtdFilhos").igual(1).e("mulher").diferente("Maria")
